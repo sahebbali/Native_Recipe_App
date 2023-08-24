@@ -18,8 +18,9 @@ const  SearchFilter= ({icon, placeholder})=>{
         shadowRadius: 7,
       }}>
          <FontAwesome name={icon} size={20} color="#f96163"/>
-         <TextInput style={{paddingLeft:8, fontSize: 16, color:"#808080"}} >
-            {placeholder}
+         <TextInput style={{paddingLeft:8, fontSize: 16, color:"#808080"}}
+         placeholder={placeholder} >
+           
          </TextInput>
         
       </View>

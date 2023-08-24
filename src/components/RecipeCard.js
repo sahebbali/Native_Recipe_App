@@ -19,10 +19,12 @@ const RecipeCard= ()=>{
 							shadowOpacity: 0.1,
 							shadowRadius: 7,
 							borderRadius: 16,
+							paddingHorizontal:20,
+							marginHorizontal: 5,
 							marginVertical: 16,
 							alignItems: "center",
-							paddingHorizontal: 8,
-							paddingVertical: 26,
+							paddingHorizontal: 4,
+							paddingVertical: 16,
 						}}
 					>
 						<Image
@@ -47,10 +49,11 @@ const RecipeCard= ()=>{
 				numColumns={2}
 				columnWrapperStyle={{
 					justifyContent: "space-between",
+					
 				}}
 				showsVerticalScrollIndicator={false}
 			/>
-            <Text> |</Text>
+        
 		</View>
     )
 }
